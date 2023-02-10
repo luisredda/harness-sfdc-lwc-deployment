@@ -9,7 +9,7 @@ describe('c-hello-world-harness', () => {
         }
     });
 
-    it('Salesforce Function Test', () => {
+    it('Validate lwc main element', () => {
         // Arrange
         const element = createElement('c-hello-world-harness', {
             is: HelloWorldHarness
